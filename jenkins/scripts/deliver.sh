@@ -17,7 +17,7 @@ VERSION=`mvn -q -DforceStdout help:evaluate -Dexpression=project.version`
 echo $VERSION
 set +x
 
-echo 'The following command runs and outputs the execution of your Java application (which Jenkins built using Maven) to the Jenkins UI.'
+echo 'The following command runs and outputs the execution of your Java application \(which Jenkins built using Maven\) to the Jenkins UI.'
 FILENAME=${NAME}-${VERSION}
 echo $FILENAME
 set -x
